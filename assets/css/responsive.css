@@ -1,0 +1,1240 @@
+@media (min-width: 1500px) and (max-width: 1900px) {
+    .vdo_right img {
+        width: 100%;
+    }
+
+    img#Lgov {
+        width: 100%;
+        right: 0;
+        left: auto;
+    }
+    
+    img#ps-ov2 {
+        right: 0;
+        left: 0;
+    }
+    
+    img#ps-ov1 {
+        right: 0;
+        width: 100%;
+        transform: unset;
+        left: auto;
+    }
+    
+    img#ps_sq {
+        right: 0;
+    }
+    
+    img#parson-dot {
+        right: 0;
+    }
+    
+    img.vdo-bl2 {
+        right: 0 !important;
+    }
+    
+    .Person-ov img#vdo-bl {
+        display: none;
+    }
+    
+    .Roadmap-ov2.rvl img#vdo-bl {
+        transform: translate(-280px, -231px) rotate(350deg);
+    }
+    
+    img#rvl_6 {
+        right: 0;
+    }
+    
+}
+
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .vdo_right img {
+        width: 100%;
+    }
+
+    img#Lgov {
+        width: 100%;
+        right: 0;
+        left: auto;
+        top: -10%;
+    }
+    
+    img#ps-ov2 {
+        right: 0;
+        left: 0;
+    }
+    
+    img#ps-ov1 {
+        right: 0;
+        width: 89%;
+        transform: unset;
+        left: auto;
+    }
+    
+    img#ps_sq {
+        right: -8%;
+        width: 203px;
+        bottom: 77px;
+    }
+    
+    img#parson-dot {
+        right: 11px;
+        width: 165px;
+    }
+    
+    img.vdo-bl2 {
+        right: 0 !important;
+    }
+    
+    .Person-ov img#vdo-bl {
+        display: none;
+    }
+    
+    .Roadmap-ov2.rvl img#vdo-bl {
+        transform: translate(-280px, -231px) rotate(350deg);
+    }
+    
+    img#rvl_6 {
+        right: 0;
+    }
+    
+    .logo-area img {
+        width: 250px;
+    }
+    
+    .menu-area nav ul li a {
+        margin: 0 14px;
+    }
+    
+    .menu-area {
+    }
+    
+    .top_btn a {
+        padding: 10px 22px;
+        font-size: 20px;
+    }
+    
+    .Person_top ul li {margin-bottom: 20px;}
+    
+    .Person_top ul li a {
+    }
+    
+    .Person_top ul li:first-child, .Person_top ul li:last-child {
+        margin: 0;
+    }
+    
+    ul {}
+    
+    .Person_top ul {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    img#parson_bg {
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 1080px;
+    
+    }
+
+    img#vlc1 {
+        top: -17px;
+        left: 12px;
+    }
+    
+    img#vlc2 {
+        left: 31%;
+        bottom: 0;
+    }
+    
+    img#parson-logo {
+        margin-top: 0px;
+    }
+    
+    .Person_cont {
+        max-width: 430px;
+        margin-left: -30px;
+        z-index: 99;
+    }
+    
+    .Person_cont p {
+        font-size: 27px;
+    }
+    
+    img#parson-dot-left {
+        width: 165px;
+        left: 0;
+        bottom: 14px;
+        z-index: 13;
+    }
+    
+    .Features_wrp {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .Features_card {
+        margin-bottom: 35px;
+    }
+    
+    section.Features {
+    margin-bottom: 0;
+    background-position-y: -4%;
+    }
+    
+    section.Roadmap {
+    }
+    
+    .rvl img#vdo-bl {
+        /* transform: translate(-296px, -85px) rotate(303deg); */
+    }
+    
+    img#rvl_1 {
+    }
+    
+    .Roadmap-ov1.rvl {
+        left: -2%;
+    }
+    
+    .Roadmap_mid {
+    }
+    
+    img#ptsq {
+        left: -117px;
+        top: -12%;
+        width: 242px;
+    }
+    
+    .Partners_wrp {
+        justify-content: center;
+    }
+    
+    img#Lgov2 {
+        right: 7%;
+    }
+    section.Person {
+        overflow: hidden;
+        padding-bottom: 100px;
+    }
+
+    section.Partners {
+        margin-top: 30px;
+    }
+    
+    section.team {
+        padding-top: 0;
+    }
+    img#bf-b {
+        width: 450px;
+    }
+
+    img#boxb {
+        max-width: 280px;
+    }
+    
+    .Features_blk {
+        max-width: 250px;
+    }
+    
+    .Features_blk img {
+        max-width: 120px;
+    }
+    img#rvl1 {
+        width: 200px;
+        top: -5%;
+    }
+    
+    #team .Features_card .Features_blk img {
+        max-width: 200px;
+        padding-top: 7px;
+    }
+    
+    #team .Features_card .Features_blk p {
+        font-size: 15px;
+        width: 232px;
+    }
+
+}
+
+
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    img#Lgov {
+        width: 100%;
+        right: 0;
+        left: auto;
+    }
+    
+    img#ps-ov2 {
+        right: 0;
+        left: 0;
+    }
+    
+    img#ps-ov1 {
+        right: 0;
+        width: 100%;
+        transform: unset;
+        left: auto;
+    }
+    
+    img#ps_sq {
+        right: 0;
+        display: none;
+    }
+    
+    img#parson-dot {
+        right: 0;
+        display: none;
+    }
+    
+    img.vdo-bl2 {
+        right: 0 !important;
+    }
+    
+    .Person-ov img#vdo-bl {
+        display: none;
+    }
+    
+    .Roadmap-ov2.rvl img#vdo-bl {
+        transform: translate(-280px, -231px) rotate(350deg);
+    }
+    
+    img#rvl_6 {
+        right: 0;
+    }
+    
+    .logo-area img {
+        width: 200px;
+    }
+    
+    .menu-area nav ul li a {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+    
+    .top_btn a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    
+    .vdo_right img {width: 649px;}
+    
+    .vdo_right iframe {
+        width: 535px;
+        height: 272px;
+    }
+    
+    .vdeo_left h3 {
+        font-size: 28px;
+    }
+    
+    .vdeo_left p {
+        font-size: 22px;
+    }
+    
+    .Person_top ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: max-content;
+    }
+
+.Person_top {
+    overflow: auto;
+}
+
+ul {}
+    
+    .Person_top ul li {
+        margin-bottom: 25px;
+    }
+    
+    .Features_wrp {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    img#parson-logo {
+        margin-top: 0;
+        width: 550px;
+    }
+    
+    img#parson_bg {
+        width: 900px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .Person_cont {
+        max-width: 345px;
+    }
+    
+    .Person_cont h2 {
+        font-size: 26px;
+    }
+    
+    .Person_cont p {
+        font-size: 22px;
+    }
+    
+    img#parson-dot-left {
+        display: none;
+    }
+    
+    img#ps-ov3 {width: 653px;}
+    
+    img#ps-ov4 {
+        display: none;
+    }
+    
+    .Features_card {margin-bottom: 50px;}
+    
+    .Roadmap_blk {
+        width: 300px;
+        padding: 40px 20px;
+    }
+    
+    img#rode {
+        position: absolute;
+        left: 50%;
+        top: 11px;
+        transform: translateX(-50%);
+    }
+    
+    .Partners_wrp {
+        justify-content: center;
+    }
+    
+    .ft_nav {
+        padding-left: 20px;
+    }
+    .Roadmap-ov2.rvl {
+        display: none;
+    }
+    img#vlc1 {
+        display: none;
+    }
+    
+    img#ptsq {}
+    
+    img#bf-b {
+        display: none;
+    }
+
+    
+#vdo-ov {
+    display: none;
+  }
+  #vOval {
+    display: none;
+  }
+  .Person {
+    padding-bottom: 130px;
+    margin-top: 75px;
+  }
+  .Person_btm {
+    margin-top: 30px;
+  }
+  #fcl {
+    display: none;
+  }
+  .Features {
+    margin-bottom: 0;
+  }
+  #rvl1 {
+    width: 200px;
+  }
+  .team {
+    padding: 0 0 50px;
+  }
+  .top_btn.borders {
+    margin-left: -20px;
+  }
+  .menu-area {
+    margin-right: 10px;
+  }
+  #team .Features_card{margin-bottom: 60px;} 
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    section.vdeo .row {
+        flex-direction: column-reverse;
+    }
+    
+    .Person_btm {
+        display: none;
+    }
+
+.Person_btm.d-none {
+    display: block !important;
+    text-align: center;
+    height: 675px;
+}
+
+.Person_btm.d-none img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+img#person-bg-mbl {
+    width: 100%;
+    max-width: 495px;
+    left: 50%;
+    z-index: -21;
+}
+
+img#person-logo-mbl {
+    position: initial;
+    transform: unset;
+    margin-top: 112px;
+    width: 150px;
+}
+
+img#person-ovl-mbl {
+    mix-blend-mode: screen;
+    top: 9%;
+    z-index: -1;
+    width: 509px;
+}
+    
+    .Person-ov {
+        display: none;
+    }
+    
+    .Features_wrp {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .Features_card {
+        margin: 20px;
+        margin-bottom: 64px;
+        /* padding: 0; */
+        width: 275px;
+    }
+    
+    .position img {
+        display: none;
+    }
+    
+    .Roadmap_wrp {
+        display: none;
+    }
+    
+    .rvl img {
+        display: none;
+    }
+    
+    img#bf-b {
+        display: none;
+    }
+    
+    .Partners_wrp {
+        justify-content: center;
+    }
+    .header-area {
+        top: 0;
+    }
+    
+    .logo-area img {
+        width: 320px;
+    }
+    
+    section.hero {
+        padding-top: 70px;
+    }
+    .top_btn.borders {
+        margin: auto;
+    }
+    
+    .top_btn a {
+        font-size: 18px;
+        padding: 12px 26px;
+    }
+
+
+
+
+    .top_btn a {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+    
+    .vdo_right {
+        margin-top: -70px;
+    }
+    
+    .vdeo_left {
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+    }
+    
+    .vdeo_left p {
+        text-align: center;
+    }
+    
+    .Person_top ul {
+        width: max-content;
+    }
+    
+    .Person_top {
+        overflow: auto;
+    }
+    
+    .Person_top::-webkit-scrollbar {
+        display: none;
+    }
+    
+    section.Person {
+        margin-top: 80px;
+        padding-bottom: 100px;
+    }
+    
+    section.Features {
+        background: no-repeat;
+        margin-bottom: 0;
+    }
+    
+    section.Partners {
+        margin-top: 10px;
+    }
+    
+    .line img {
+    }
+
+    .Person_cont {
+        margin: auto;
+        max-width: 400px;
+        text-align: center;
+        margin-top: 29px;
+    }
+    
+    .Person_cont p {
+        font-size: 18px;
+    }
+    
+    .Person_cont h2 {
+        font-size: 20px;
+    }
+    .Roadmap_wrp_mbl{
+    display: block !important;
+    width: max-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Roadmap_wrp_mbl {}
+
+.Roadmap_wrp_mbl .Roadmap_blk {
+    margin: 0;
+    margin-bottom: 20px;
+    background: rgb(21 18 46 / 75%);
+    width: 100%;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont {
+    display: flex;
+    position: relative;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:before {content: "";position: absolute;top: 80px;width: 5px;left: 44px;height: 90%;background: linear-gradient(90deg, #77CCFF, #B743D8);z-index: -1;}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:last-child:before {
+    display: none;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(4):before {
+    background: linear-gradient(45deg, #F57A21, #4D5AE0);
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(3):before {
+    background: linear-gradient(45deg, #40A0ED, #8F56E6);
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(2):before {
+    background: linear-gradient(224deg, #3342ED, #6D27F0 69%);
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(2) .rd_txt:before {
+    background: linear-gradient(306.64deg, rgba(41, 50, 255, 0.7) 27.07%, rgba(104, 228, 255, 0.7) 71.29%), linear-gradient(0deg, #4E73F5, #4E73F5), linear-gradient(306.64deg, rgba(167, 89, 198, 0.35) 27.07%, rgba(247, 28, 225, 0.35) 71.29%), #AC41C6;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(3) .rd_txt:before {
+    background: linear-gradient(306.64deg, rgba(243, 193, 255, 0.35) 27.07%, rgba(122, 41, 255, 0.35) 71.29%), linear-gradient(0deg, #6524EB, #6524EB), linear-gradient(306.64deg, rgba(167, 89, 198, 0.35) 27.07%, rgba(247, 28, 225, 0.35) 71.29%), #AC41C6;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(4) .rd_txt:before {
+    background: linear-gradient(96.1deg, #27FFF2 4.83%, #6600E9 87.78%), linear-gradient(306.64deg, rgba(255, 41, 105, 0.9) 27.07%, rgba(247, 122, 28, 0.9) 71.29%), linear-gradient(0deg, #F6783A, #F6783A), linear-gradient(306.64deg, rgba(167, 89, 198, 0.35) 27.07%, rgba(247, 28, 225, 0.35) 71.29%), #AC41C6;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(5) .rd_txt:before {
+    background: linear-gradient(306.64deg, rgba(255, 41, 105, 0.9) 27.07%, rgba(247, 122, 28, 0.9) 71.29%), linear-gradient(0deg, #F6783A, #F6783A), linear-gradient(306.64deg, rgba(167, 89, 198, 0.35) 27.07%, rgba(247, 28, 225, 0.35) 71.29%), #AC41C6;
+}
+
+
+
+.rd_txt  {
+    width: 105px;
+    height: 105px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#F71CE1, #A759C6 );
+}
+
+.Roadmap_wrp_mbl .rd_txt {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    align-items: unset;
+    flex-direction: column;
+    margin: unset;
+    margin-right: 40px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.Roadmap_wrp_mbl .rd_txt:before {content: "";position: absolute;top: -8px;left: -8px;width: 106px;height: 106px;background: linear-gradient(45deg, #F71CE1, #A759C6);border-radius: 50%;z-index: -1;}
+
+.email{
+    width: max-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+footer .row:first-child {
+    padding: 0 35px;
+}
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    section.vdeo .row {
+        flex-direction: column-reverse;
+    }
+    
+    .Person_btm {
+        display: none;
+    }
+
+.Person_btm.d-none {
+    display: block !important;
+    text-align: center;
+    margin-top: 16px;
+    height: 460px;
+}
+
+.Person_btm.d-none img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+img#person-bg-mbl {
+    width: 107%;
+    max-width: 375px;
+    left: 50%;
+    z-index: -21;
+    margin-top: 0;
+}
+
+img#person-logo-mbl {
+    position: initial;
+    transform: unset;
+    margin-top: 38px;
+}
+
+img#person-ovl-mbl {
+    mix-blend-mode: screen;
+    top: 0;
+    z-index: -1;
+    width: 300px;
+    margin-top: 0;
+}
+    
+    .Person-ov {
+        display: none;
+    }
+    
+    .Features_wrp {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .Features_card {
+        margin-bottom: 29px;
+        width: 150px;
+        padding: 0;
+        box-shadow: 1px -8px 60px rgb(246 115 63 / 25%);
+    }
+    
+    .position img {
+        display: none;
+    }
+    
+    .Roadmap_wrp {
+        display: none;
+    }
+    
+    .rvl img {
+        display: none;
+    }
+    
+    img#bf-b {
+        display: none;
+    }
+    
+    .Partners_wrp {
+        justify-content: center;
+    }
+    .header-area {
+        top: 10px;
+    }
+    
+    .logo-area img {
+        width: 199px;
+    }
+
+.logo-area {
+    position: absolute;
+    left: 55%;
+    top: 27px;
+    transform: translateX(-50%);
+}
+    
+    section.hero {
+        padding-top: 100px;
+    }
+    .top_btn.borders {
+        margin: auto;
+    }
+    
+    .top_btn a {
+        font-size: 18px;
+        padding: 12px 26px;
+    }
+
+
+
+
+    .top_btn a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    
+    .vdo_right {
+        margin-top: -31px;
+    }
+
+.vdo_right iframe {
+    width: 300px;
+    height: 150px;
+}
+
+.vdo_right img {
+    width: 100%;
+    max-width: 335px;
+    margin: auto;
+}
+
+img#vdo1 {
+    top: 26px;
+    width: 100px;
+}
+    
+    .vdeo_left {
+        text-align: center;
+    }
+
+.vdeo_left p {
+    font-size: 20px;
+}
+
+.vdeo_left h3 {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+section.hero:before {
+    opacity: .3;
+    opacity: 0;
+}
+    
+    .vdeo_left p {
+        text-align: center;
+    }
+    
+    .Person_top ul {
+        width: max-content;
+    }
+    
+    .Person_top {
+        overflow: auto;
+        padding-bottom: 12px;
+    }
+
+.Person_top ul li a {
+    font-size: 16px;
+    width: 170px;
+}
+
+.Person_top ul li {
+    margin: 0;
+}
+
+.Person_top ul li a img {
+    width: 100%;
+}
+    
+    .Person_top::-webkit-scrollbar {
+        display: none;
+    }
+    
+    section.Person {
+        margin-top: 20px;
+        padding-bottom: 72px;
+    }
+    
+    section.Features {
+        background: no-repeat;
+        margin-bottom: 0;
+        padding-bottom: 56px;
+    }
+    
+    section.Partners {
+        margin-top: 10px;
+    }
+    
+    .line img {
+    }
+
+    .Person_cont {
+        margin: auto;
+        max-width: 400px;
+        text-align: center;
+        margin-top: 24px;
+        padding: 0 10px;
+    }
+    
+    .Person_cont p {
+        font-size: 16px;
+        max-width: 330px;
+        margin: auto;
+    }
+    
+    .Person_cont h2 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .Roadmap_wrp_mbl{
+    display: block !important;
+    width: max-content;
+    margin: auto;
+}
+
+.Roadmap_wrp_mbl {
+    width: 100%;
+}
+
+.Roadmap_wrp_mbl .Roadmap_blk {
+    margin: 0;
+    margin-bottom: 20px;
+    background: rgb(21 18 46 / 75%);
+    width: 100%;
+    padding: 20px;
+    max-width: 250px;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:before {content: "";position: absolute;top: 80px;width: 5px;left: 33px;height: 90%;background: linear-gradient(90deg, #77CCFF, #B743D8);z-index: -1;}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:last-child:before {
+    display: none;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(4):before {
+    background: linear-gradient(45deg, #F57A21, #4D5AE0);
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(3):before {
+    background: linear-gradient(45deg, #40A0ED, #8F56E6);
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(2):before {
+    background: linear-gradient(224deg, #3342ED, #6D27F0 69%);
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(2) .rd_txt:before {
+    background: linear-gradient(306.64deg, rgba(41, 50, 255, 0.7) 27.07%, rgba(104, 228, 255, 0.7) 71.29%), linear-gradient(0deg, #4E73F5, #4E73F5), linear-gradient(306.64deg, rgba(167, 89, 198, 0.35) 27.07%, rgba(247, 28, 225, 0.35) 71.29%), #AC41C6;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(3) .rd_txt:before {
+    background: linear-gradient(306.64deg, rgba(243, 193, 255, 0.35) 27.07%, rgba(122, 41, 255, 0.35) 71.29%), linear-gradient(0deg, #6524EB, #6524EB), linear-gradient(306.64deg, rgba(167, 89, 198, 0.35) 27.07%, rgba(247, 28, 225, 0.35) 71.29%), #AC41C6;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(4) .rd_txt:before {
+    background: linear-gradient(96.1deg, #27FFF2 4.83%, #6600E9 87.78%), linear-gradient(306.64deg, rgba(255, 41, 105, 0.9) 27.07%, rgba(247, 122, 28, 0.9) 71.29%), linear-gradient(0deg, #F6783A, #F6783A), linear-gradient(306.64deg, rgba(167, 89, 198, 0.35) 27.07%, rgba(247, 28, 225, 0.35) 71.29%), #AC41C6;
+}
+
+.Roadmap_wrp_mbl.d-none .Roadmap_cont:nth-child(5) .rd_txt:before {
+    background: linear-gradient(306.64deg, rgba(255, 41, 105, 0.9) 27.07%, rgba(247, 122, 28, 0.9) 71.29%), linear-gradient(0deg, #F6783A, #F6783A), linear-gradient(306.64deg, rgba(167, 89, 198, 0.35) 27.07%, rgba(247, 28, 225, 0.35) 71.29%), #AC41C6;
+}
+
+
+
+.rd_txt  {
+    width: 105px;
+    height: 105px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#F71CE1, #A759C6 );
+}
+
+.Roadmap_wrp_mbl .rd_txt {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    align-items: unset;
+    flex-direction: column;
+    margin: unset;
+    margin-right: 17px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.Roadmap_wrp_mbl .rd_txt:before {content: "";position: absolute;top: -3px;left: -3px;width: 76px;height: 76px;background: linear-gradient(45deg, #F71CE1, #A759C6);border-radius: 50%;z-index: -1;}
+
+.email{
+    width: max-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+footer .row:first-child {
+    padding: 0 35px;
+}
+ 
+img#vdo-bl {
+    width: 100%;
+    display: none;
+}
+
+h2.title {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.Features_blk h3 {
+    font-size: 15px;
+    margin: 10px;
+}
+
+.Features_blk img {
+    max-width: 80px;
+}
+
+.Features_blk p {
+    font-size: 13px;
+    width: 130px;
+    height: 58px;
+    overflow: hidden;
+}
+
+img#boxb {
+    width: 160px;
+}
+
+.Features_blk {
+    max-width: 150px;
+    padding: 0;
+    border-radius: 17px;
+}
+
+.Roadmap_wrp_mbl .rd_txt span {
+    font-size: 12px;
+}
+
+.Roadmap_wrp_mbl .rd_txt p {
+    font-size: 14px;
+}
+
+.Roadmap_blk h3 {
+    font-size: 18px;
+}
+
+.Roadmap_blk ul li {
+    font-size: 14px;
+}
+
+section.team {
+    padding: 50px 0 30px;
+}
+
+#team .Features_card .Features_blk p {
+    font-size: 12px;
+    width: 130px;
+    height: 39px;
+}
+
+#team .Features_card .Features_blk span {
+    font-size: 12px;
+}
+
+#team .Features_card .Features_blk h3 {
+    margin: 10px 0;
+}
+
+#team .Features_card .Features_blk img {max-width: 100%;height: 82px;width: 100%;object-fit: cover;border-radius: 10px;object-position: top;}
+
+#team .Features_card .Features_blk {
+    height: 220px;
+}
+
+.Partners_blk {
+    width: 110px;
+    height: 110px;
+    margin: 3px;
+}
+
+.Partners_blk a {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.Partners_blk a img {
+    width: 100%;
+}
+
+#team .Features_card {
+    box-shadow: 1px -3px 50px rgb(246 115 63 / 25%);
+}
+#ft_nav{
+    display: block;
+    padding: 0;
+}
+
+div#ft_nav ul {
+    width: max-content;
+    margin: auto;
+}
+
+div#ft_nav ul li a {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+div#ft_nav ul li .copyright a {
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    width: 100% !important;
+}
+
+div#ft_nav ul li .copyright {
+    width: 340px;
+}
+
+div#ft_nav ul li {
+    justify-content: center;
+    margin-bottom: 14px;
+}
+#ft_cont1{
+    display: none;
+}
+footer {
+    padding-bottom: 0px;
+}
+
+.line {
+    margin: 35px 0;
+}
+
+
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+img#boxb{
+    width: 198px;
+}
+#team .Features_card {
+    margin-bottom: 33px;
+}
+
+#team .Features_card img#boxb {
+    width: 190px;
+}
+
+#team .Features_card .Features_blk {
+    height: 255px;
+    width: 168px;
+}
+
+#team .Features_card .Features_blk h3 {
+    margin-top: 13px;
+}
+
+.Features_card {
+    margin-bottom: 60px;
+    width: 171px;
+    max-width: 170px;
+}
+
+.Features_blk {padding: 0px;max-width: 175px;width: 175px;height: 100%;}
+
+.Features_blk p {
+    width: 150px;
+    height: unset;
+}
+.Features_wrp {
+    justify-content: space-around;
+}
+
+#team .Features_card .Features_blk p {
+    height: unset;
+}
+.vdo_right iframe {
+    width: 368px;
+    height: 177px;
+}
+
+.vdo_right img {
+    max-width: 440px;
+}
+section.hero {
+    padding-top: 75px;
+}
+}
