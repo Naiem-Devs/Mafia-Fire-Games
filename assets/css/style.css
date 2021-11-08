@@ -365,7 +365,9 @@ li {
     width: 100%;
 }
 
-.position {}
+.position {
+    pointer-events: none;
+}
 
 .position img {
     position: absolute;
@@ -530,6 +532,10 @@ section.hero img {
 }
 .vdeo {position: relative;}
 
+section.vdeo img {
+    pointer-events: none;
+}
+
 section.vdeo img#vdo-bl {
     mix-blend-mode: hard-light;
     opacity: 0.3;
@@ -605,7 +611,9 @@ img#vdo1 {
 }
 .Person {margin-top: 150px;position: relative;padding-bottom: 250px;/* overflow: hidden; */}
 
-.Person-ov {}
+.Person-ov {
+    pointer-events: none;
+}
 
 .Person-ov img#vdo-bl {left: -17%;top: 66%;transform: rotate(
 289deg);
@@ -675,10 +683,19 @@ px
 
 .Person_top ul li a img {
     position: absolute;
+    pointer-events: none;
 }
 .Person_btm {position: relative;align-items: center;display: flex;/* background: url(../img/parson.png); */margin-top: 100px;}
 
-.Person_btm {}
+.Person_btm[data-id="lands"] .lands,
+.Person_btm[data-id="Avatars"] .Avatars,
+.Person_btm[data-id="Tools"] .Tools,
+.Person_btm[data-id="Weapon"] .Weapon,
+.Person_btm[data-id="Vehicles"] .Vehicles,
+.Person_btm[data-id="Pets"] .Pets
+{
+    display: block;
+}
 
 .Person_btm img {margin-top: 60px;}
 
@@ -716,22 +733,14 @@ img#parson-logo {
 img#parson-dot-left {
     left: -4%;
     bottom: -5%;
-animation: psdotl 6s infinite ease-in-out;
 }
-@keyframes  psdotl {
-  0%,100%{bottom: -5%;}
-  50%{bottom: -15%;}
-}
+
 
 img#parson-dot {
     top: 0;
     right: -13%;
-animation: psdot 6s infinite ease-in-out;
 }
-@keyframes  psdot {
-  0%,100%{right: -15%;}
-  50%{right: -10%;}
-}
+
 
 img#ps-ov3 {
     position: absolute;
@@ -749,7 +758,7 @@ img#parson_bg {
     z-index: 0;
     width: 100%;
 }
-.Person_cont {max-width: 500px;position: relative;}
+.Person_cont {max-width: 500px;position: relative;display: none;}
 
 .Person_cont p {
     font-size: 30px;
@@ -778,7 +787,7 @@ img#parson_bg {
     background-repeat: no-repeat;
 }
 .title {font-size: 50px;width: max-content;margin: auto;margin-bottom: 50px;background: -webkit-linear-gradient(32deg , #9327FF , #ff2969b8 170%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;text-transform: uppercase;}
-.Features_wrp {display: flex;justify-content: space-between;}
+.Features_wrp {display: flex;justify-content: space-between;position: relative;z-index: 9;}
 
 #team .Features_card .Features_blk {
     padding: 0 !important;
@@ -796,6 +805,7 @@ img#parson_bg {
 
 #team .Features_card .Features_blk h3 {
     margin: 17px 0;
+    cursor: pointer;
 }
 
 #team .Features_card .Features_blk p {
@@ -831,7 +841,6 @@ animation: fublk 3s infinite ease-in-out;
 }
 
 .Features_blk:hover img {
-    transform: scale(1.1);
 }
 
 .Features_blk p {}
@@ -934,6 +943,10 @@ section.Roadmap h2:after {content: "";position: absolute;bottom: -40px;left: 50%
     /* width: 100%; */
 }
 
+.Roadmap_mid img {
+    pointer-events: none;
+}
+
 .Roadmap_mid ul {position: absolute;top: 48.5%;left: 50%;transform: translate(-50%, -50%);}
 
 .Roadmap_mid ul li {
@@ -1027,6 +1040,7 @@ section.Partners img#vdo-bl {
     width: 100%;
     cursor: inherit;
     object-fit: cover;
+    pointer-events: none;
 }
 
 .ft_top {
