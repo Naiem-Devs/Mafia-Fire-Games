@@ -685,7 +685,7 @@ px
     position: absolute;
     pointer-events: none;
 }
-.Person_btm {position: relative;align-items: center;display: flex;/* background: url(../img/parson.png); */margin-top: 100px;}
+.Person_btm {position: relative;align-items: center;display: flex;/* background: url(../img/parson.png); */margin-top: 100px;justify-content: center;}
 
 .Person_btm[data-id="lands"] .lands,
 .Person_btm[data-id="Avatars"] .Avatars,
@@ -724,12 +724,29 @@ img#ps-ov4 {
 img#parson-logo {
     position: relative;
     z-index: 99;
-    animation: pslogo 5s infinite ease-in-out;
+    max-width: 690px;
+    width: 100%;
 }
-@keyframes  pslogo {
-  0%,100%{transform: scale(1);}
-  50%{transform: scale(1.2);}
+
+.lands_img,
+.Avatars_img,
+.Tools_img,
+.Weapon_img,
+.Vehicles_img,
+.Pets_img
+{
+    display: none;
 }
+
+.Person_btm[data-id="lands"] .lands_img, 
+.Person_btm[data-id="Avatars"] .Avatars_img, 
+.Person_btm[data-id="Tools"] .Tools_img, 
+.Person_btm[data-id="Weapon"] .Weapon_img, 
+.Person_btm[data-id="Vehicles"] .Vehicles_img, 
+.Person_btm[data-id="Pets"] .Pets_img
+{display: block !important;}
+
+
 img#parson-dot-left {
     left: -4%;
     bottom: -5%;
@@ -738,7 +755,7 @@ img#parson-dot-left {
 
 img#parson-dot {
     top: 0;
-    right: -13%;
+    right: -11%;
 }
 
 
@@ -758,7 +775,7 @@ img#parson_bg {
     z-index: 0;
     width: 100%;
 }
-.Person_cont {max-width: 500px;position: relative;display: none;}
+.Person_cont {max-width: 510px;position: relative;display: none;padding-right: 20px;}
 
 .Person_cont p {
     font-size: 30px;
